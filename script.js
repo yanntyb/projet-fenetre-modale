@@ -43,7 +43,7 @@ fenetreModal.prototype.afficher = function (){
     close.style.fontSize = "2rem";
     close.addEventListener("click",function(){
         console.log("click");
-        global.removeChild(newDiv);
+        global.removeChild(globalDiv);
     })
 
     let information = document.createElement("div");
